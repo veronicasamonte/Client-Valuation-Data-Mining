@@ -21,10 +21,12 @@ Feature selection and preprocessing were performed to ensure model interpretabil
 
 ## Modeling Approach
 Multiple classification models were evaluated and compared, including:
-- Logistic Regression
-- Tree-based and ensemble methods
+- Logistic Regression<br/>
+- Decision Trees<br/>
+- Neural Networks<br/>
+- XGBoost<br/>
 
-Rather than selecting a model based solely on accuracy or AUC, each model was evaluated using a **custom profit matrix**, allowing business outcomes to drive model selection.
+Rather than selecting a model based solely on accuracy, each model was evaluated using a **custom profit matrix**, allowing realistic business outcomes to drive model selection.
 
 ## Profit Matrix & Evaluation
 A profit matrix was applied to assign different values to:
@@ -43,8 +45,8 @@ This framework revealed that:
 - Showed the importance of aligning data mining techniques with **business objectives**
 
 ## Tools & Technologies
-- R
-- Data preprocessing and feature engineering
+- **JMP**
+- Data cleaning methods, including informative missing, imputation, and outlier identification
 - Classification modeling
 - Profit-based model evaluation
 
