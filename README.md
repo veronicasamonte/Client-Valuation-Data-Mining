@@ -13,6 +13,7 @@ Many customer classification models optimize for accuracy, but in practice:
 The objective of this project was to determine **which customers should be classified as high-value** in a way that **maximizes expected profit**, not just model performance metrics.
 
 ## Data & Features
+- Data Cleaning processes: exploring outliers, imputation, informative missing<br/>
 - Customer demographic and behavioral variables
 - Financial and engagement indicators
 - Binary target variable indicating high-value status
@@ -62,6 +63,8 @@ Dependent variable <br/>
 Multiple classification models were evaluated and compared, including:
 - Logistic Regression<br/>
 - Decision Trees<br/>
+- Bootstrap Forestv
+- Boosted Trees<br/>
 - Neural Networks<br/>
 - XGBoost<br/>
 
